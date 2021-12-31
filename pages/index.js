@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import Link from 'next/link'
 
 export default function Home() {
@@ -28,10 +28,10 @@ export default function Home() {
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-<Link href="/about">
-          <a>about</a>
-        </Link>
-        
+          <Link href="/about">
+            <a>about</a>
+          </Link>
+
 
 
           <a
